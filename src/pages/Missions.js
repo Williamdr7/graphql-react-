@@ -43,7 +43,7 @@ const MissionCollpase = ({ mission }) => {
                 <strong className='d-block'>{manufacturer}</strong>
               ))}
             </Col>
-            <Col>
+            <Col style={{ height: '250px', overflowX: 'auto' }}>
               <Label className='m-0'>Description: </Label>
               <strong className='d-block'>{mission.description}</strong>
             </Col>
